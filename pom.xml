@@ -42,7 +42,7 @@
         <cobertura.version>2.7</cobertura.version>
 
 
-        <sonar.organization>ashutosh-karmakar-1</sonar.organization>
+        <sonar.organization>ashutosh-karmakar-3</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
