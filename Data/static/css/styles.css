@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+div{
+    padding:1rem;
+    margin:1rem auto 1rem auto;
+    border: 5px solid firebrick;
+    width:fit-content;
+
+}
+h1{
+    font-size: 1.5rem;
+    color:blueviolet;
+    display: inline;
+}
+h2{
+    font-size:1rem;
+    color:chocolate;
+    display: inline;
+}
+
+
+/* if u want to use this css in templates then you first have to keep in static and change in setting see setting.py and run
+python manage.py collectstatic */

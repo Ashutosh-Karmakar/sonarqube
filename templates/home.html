@@ -1,0 +1,26 @@
+{% load static %}
+<!-- First load of the static to use in css -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Document</title>
+</head>
+<body>
+
+    {% for nam in names %}
+    <div>
+        <h1>Name :</h1>
+        <h2> {{nam.name}}</h2>
+        <br>
+        <h1>Age :</h1> 
+        <h2>{{nam.age}}</h2>
+    </div>
+    {% endfor %}
+    
+</body>
+</html>
