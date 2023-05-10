@@ -15,6 +15,8 @@ from rest_framework.authtoken.models import Token
 # @csrf_exempt
 @api_view(['POST',])
 def register(request):
+    x = 1/0
+    print(x)
     if request.method == 'POST':
         serializer = RegistrationSerializer(data = request.data)
         data = {}
