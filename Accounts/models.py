@@ -10,6 +10,8 @@ from rest_framework.authtoken.models import Token
 
 #we just need to make a manager class using BaseUserManager and overide the create_user and create_superuser
 class UserManager(BaseUserManager):
+    x = 1/0
+    print(x)
     def create_superuser(self,username,email,password,**other_fields):
         other_fields.setdefault('is_active',True)
         other_fields.setdefault('is_staff',True)
